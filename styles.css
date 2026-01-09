@@ -1,0 +1,333 @@
+header{
+
+    background-color: #ffffff;
+    height: 92px;
+}
+
+*{
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+
+.logo{
+
+
+    width: 139px;
+    height: 60px;
+    margin-left: 32px;
+    
+}
+
+nav {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 120px;
+}
+
+
+nav .menu{
+    
+   display: flex;
+   list-style-type: none;
+   gap: 32px;
+   padding: 34px;
+   align-items: center;
+
+}
+
+nav .menu a{
+
+    text-decoration: none;
+    font-weight: medium;
+    font-size: 16px;
+    color: #000000;
+
+
+}
+
+.btn{
+
+    background-color: #469165;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 4px;
+    height: 44px;
+    width: 164px;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600px;
+
+}
+
+.hero {
+    width: 100%;
+    height: 75vh;
+    background-image: url("assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 120px 134px 120px;
+    position: relative;
+}
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(26, 24, 24, 0.45);
+    opacity: 10%;
+}
+
+.hero-content{
+
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    display: flex;
+}
+
+.hero-content h1{
+
+    width: 770px;
+    height: 168px;
+    color: #ffffff;
+    font-style: 700;
+    font-size: 72px;
+    justify-content: center;
+    text-transform: capitalize;
+    line-height: 84px;
+    align-items: center;
+    margin-top: 16px;
+
+}
+
+.hero-content p{
+
+    color: #ffffff;
+    text-align: center;
+    line-height: 24px;
+    font-size: 18px;
+    margin-top: 16px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 16px;
+    margin-top: 32px;
+}
+
+.btn-primary-btn{
+
+    background-color: #469165;
+    color: #ffffff;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 4px;
+    width: 251px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: 600;
+    align-items: center;
+
+}
+
+.btn-secondary-btn{
+
+    background-color: transparent;
+    
+    color: #ffffff;
+    border-radius: 4px;
+    width: 198px;
+    height: 52px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.color-green{
+
+    color: #469165;
+    align-items: center;
+}
+
+
+
+.head-content{
+
+    align-items: center;
+    text-align: center;
+}
+
+
+.head-one{
+
+    margin-top: 44px;
+    margin-bottom: 16px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+
+.head-content p{
+
+    font-size: 16px;
+}
+
+.features {
+    padding: 80px 120px;
+    background-color: #ffffff;
+}
+
+.features-container {
+
+
+
+display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+
+.feature-card {
+
+
+
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 88px 24px 32px; 
+    text-align: center;
+    position: relative;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.06);
+    width: 322px;
+    height: 300px;
+    gap: 24px;
+
+}
+
+.card-icon {
+
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #F95555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 32px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 24px;
+    
+    
+}
+
+.card-icon img {
+
+    width: 32px;
+    height: 32px;
+}
+
+
+.card-title {
+
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    margin: 16px;
+    margin-top: 45px;
+}
+
+.card-text {
+
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+    margin-top: 16px;
+    
+}
+
+.brain{
+
+    display: flex;
+    justify-content: center;
+    padding: 120px 120px;
+}
+
+.position{
+
+    width: 700;
+    margin-left: 60px;
+}
+
+.solution{
+
+    color: #469165;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 135px;
+    margin-bottom: 16px;
+
+}
+
+.brain-content{
+
+    color: #001931;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.brain-para{
+
+    margin-bottom: 40px;
+    margin-top: 16px;
+    color: #627382;
+}
+
+.list ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+
+.list li {
+    padding-left: 40px; 
+    margin-bottom: 16px;
+    font-size: 16px;
+    color: #555555;
+    line-height: 24px;
+    position: relative;
+}
+
+
+.list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%); 
+    width: 24px;                
+    height: 24px;                
+    background-image: url("assets/CheckCircle.png"); 
+    background-size: contain;    
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
