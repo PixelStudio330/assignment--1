@@ -16,6 +16,18 @@ header{
   font-optical-sizing: auto;
 }
 
+.social-icons a i {
+    color: #000000 !important;
+    font-size: 15px;
+    text-align: center;          
+    display: inline-block;
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding-top: 3px;
+    width: 20px;
+    height: 20px;
+}
+
 
 .logo{
 
@@ -182,9 +194,6 @@ nav .menu a{
 }
 
 
-
-
-
 .head-content p{
 
     font-size: 16px;
@@ -269,6 +278,8 @@ display: flex;
     display: flex;
     justify-content: center;
     padding: 120px 120px;
+    max-width: 1360px;
+    margin-left: 145px;
 }
 
 .position{
@@ -308,12 +319,13 @@ display: flex;
 }
 
 .list li {
-    padding-left: 40px; 
-    margin-bottom: 16px;
+    padding-left: 25px; 
+    margin-bottom: 5px;
     font-size: 16px;
-    color: #555555;
+    color: #000000;
     line-height: 24px;
     position: relative;
+    font-weight: 700;
 }
 
 
@@ -323,11 +335,128 @@ display: flex;
     left: 0;
     top: 50%;
     transform: translateY(-50%); 
-    width: 24px;                
-    height: 24px;                
+    width: 20px;                
+    height: 20px;                
     background-image: url("assets/CheckCircle.png"); 
     background-size: contain;    
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.container{
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+.inv {
+    max-width: 1360px;        
+    width: 100%;              
+    margin: 0 auto 120px;     
+    background-color: #F7F6F2;
+    padding: 60px 120px; 
+    box-sizing: border-box;
+    text-align: center;    
+}
+
+
+
+.head-two{
+
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 80px;
+}
+
+.inv-para{
+
+    color: #627382;
+    font-size: 16px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.inv-btn{
+
+    background-color: #469165;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 4px;
+    height: 52px;
+    width: 194px;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    
+
+
+}
+
+.second-inv-para{
+
+    color: #627382;
+    font-size: 16px;
+    margin-top: 16px;
+
+}
+
+.footer {
+    background-color: #001931; 
+    color: #ffffff;
+    padding-top: 120px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 30px;
+    font-family: sans-serif;
+}
+
+
+.footer-content {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.footer-logo img {
+    height: 50px; 
+}
+
+.footer-social h3 {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+    text-align: right;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    transition: opacity 0.3s;
+}
+
+.social-icons a:hover {
+    opacity: 0.7;
+}
+
+.footer-divider {
+    border: 0;
+    border-top: 1px solid #0f3053;
+    margin: 20px 0;
+    margin-top: 80px;
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 16px;
+    color: #FAFAFA;
+    line-height: 24px;
 }
 
